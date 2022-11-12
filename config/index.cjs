@@ -8,15 +8,16 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
-
+  APP_ID: 'wx22a43de36ed541ed',
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '3c2a36d5c82f95ea2e857f3173d366d5',
+  // 使用微信测试号：模板消息id
+  TEMPLATE_ID:'oCZsjv_0PgmWyclsJOJEZ5YLfe79N34bbdphlAMnAZE'，
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '广西',
+  CITY: '南宁',
 
-  USERS: [
+  USERS: ["opEWa6AjuQA8cEVpYJhBy3WJaBN8"],
     {
       // 想要发送的人的名字
       name: '宝贝',
@@ -51,13 +52,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'oCZsjv_0PgmWyclsJOJEZ5YLfe79N34bbdphlAMnAZE',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'opEWa6AjuQA8cEVpYJhBy3WJaBN8',
     }
   ],
 
